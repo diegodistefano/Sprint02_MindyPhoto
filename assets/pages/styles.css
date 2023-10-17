@@ -1,0 +1,255 @@
+:root{
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    /* CSS HEX */
+    --color-principal2: #f8f4e3ff;
+    --color-principal: #d4cdc3ff;
+    --color-secundario2: #d5d0cdff;  
+    --color-secundario: rgb(144, 145, 128);
+    --color-boton: #9a998cff;
+
+    font-family: 'Cutive Mono', monospace;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+}
+
+/* HEADER */
+
+.header {
+    background-color: var(--color-secundario); 
+    height: 4rem; 
+}
+
+body {
+    background-color: var(--color-principal);
+}
+
+.menu{
+    display: inline-block;
+    font-size: 1.5rem;
+    
+}
+
+nav.menu a {
+    margin-left: 3rem;
+}
+
+
+.header img {
+    display: inline-block;
+    padding-left: 60rem;
+    margin-top: 0.5rem;
+    height: 3rem;
+}
+
+a:hover {
+    background-color: var(--color-boton);
+    border: 3px solid var(--color-secundario2);
+}
+
+
+
+/* BANNER */
+
+.banner img{
+    height: 17rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.banner h1 {
+    padding: 1rem 3rem;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.banner h2 {
+    padding: 1rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+
+/* INFORMACION HOME */
+div.fotos{
+    position: relative;
+    height: 45rem;
+    text-align: center;
+    font-size: 3rem;
+}
+
+div.productos img {
+    position: absolute;
+    top: 5rem;
+    left: 50rem;
+    font-size: 3rem;
+    height: 35rem;
+    width: 35rem;
+    object-fit: cover;
+    text-align: center;
+    display: inline-block;
+
+}
+
+div.productos p {
+    position: absolute;
+    top: 5rem;
+    left: 10rem;
+    font-size: 2.8rem;
+    height: 35rem;
+    width: 35rem;
+    background-color: var(--color-boton);
+    display: inline-block;
+
+}
+
+/* INFORMACION ABOUT US */
+div.fotos1{
+    position: relative;
+    height: 92rem;
+    text-align: center;
+    font-size: 3rem;
+}
+
+div.productos1 p {
+    position: absolute;
+    top: 2rem;
+    left: 50rem;
+    font-size: 2.8rem;
+    height: 25rem;
+    width: 25rem;
+    text-align: center;
+    display: inline-block;
+    background-color: var(--color-boton);
+}
+
+div.productos1 img {
+    position: absolute;
+    top: 2rem;
+    left: 20rem;
+    height: 25rem;
+    width: 25rem;
+    object-fit: cover;
+    display: inline-block;
+}
+
+div.productos2 p {
+    position: absolute;
+    top: 32rem;
+    left: 50rem;
+    font-size: 2.9rem;
+    height: 25rem;
+    width: 25rem;
+    text-align: center;
+    display: inline-block;
+    background-color: var(--color-boton);
+}
+
+div.productos2 img {
+    position: absolute;
+    top: 32rem;
+    left: 20rem;
+    height: 25rem;
+    width: 25rem;
+    object-fit: cover;
+    display: inline-block;
+}
+
+div.productos3 p {
+    position: absolute;
+    top: 62rem;
+    left: 50rem;
+    font-size: 2.94rem;
+    height: 25rem;
+    width: 25rem;
+    text-align: center;
+    display: inline-block;
+    background-color: var(--color-boton);
+}
+
+div.productos3 img {
+    position: absolute;
+    top: 62rem;
+    left: 20rem;
+    height: 25rem;
+    width: 25rem;
+    object-fit: cover;
+    display: inline-block;
+}
+
+/* INFORMACION CONTACT */
+div.datos{
+    height: 68rem;
+    text-align: center;
+}
+
+div.productos4 img {
+    height: 35rem;
+    width: 55rem;
+    object-fit: cover;
+    margin: 1rem;
+}
+
+div.productos4 p {
+    height: 12rem;
+    text-align: center;
+    font-size: 2rem;
+    width: 50vw;
+    background-color: var(--color-boton);
+    display: inline-block;
+    margin: 2rem;
+}
+
+p.email{
+    position: absolute;
+    top: 70rem;
+    left: 20rem;
+    font-size: 2rem;
+    height: 2.3rem;
+    width: 25rem;
+    text-align: center;
+    display: inline-block;
+    background-color: var(--color-boton);
+}
+
+p.phone{
+    position: absolute;
+    top: 70rem;
+    left: 50rem;
+    font-size: 2rem;
+    height: 2.3rem;
+    width: 25rem;
+    text-align: center;
+    display: inline-block;
+    background-color: var(--color-boton);
+}
+
+
+
+
+
+/* FOOTER */
+
+footer{
+    background-color: var(--color-secundario);
+    height: 4rem;
+    text-align: center;
+}
+
+.footer h4{
+    display: inline-block;
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+
+
